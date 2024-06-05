@@ -1,0 +1,15 @@
+{
+  "name": "gql_workshops_l1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "graphql": "^16.8.1"
+  }
+}

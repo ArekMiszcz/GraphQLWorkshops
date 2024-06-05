@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "jsx": "preserve",
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": ["es6", "esnext.asynciterable"],
+        "rootDir": "./src",
+        "outDir": "./.ts-node",
+    },
+    "ts-node": {
+        "swc": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
